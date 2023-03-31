@@ -4,14 +4,10 @@
 	<remote name="tree"
                 fetch="https://github.com" />
 
-        <!-- Delete Repo -->
+	<remote name="proton"
+                fetch="https://gitlab.com/LeCmnGend" />
 
-        <!-- Sync trees -->
-        <project path="device/xiaomi/tissot" name="Anothermi1/device_xiaomi_tissot" remote="tree" revision="11-havoc" />
-        <project path="device/xiaomi/msm8953-common" name="Anothermi1/device_xiaomi_msm8953-common" remote="tree" revision="11" />
-        <project path="vendor/xiaomi/tissot" name="Anothermi1/vendor_xiaomi_tissot" remote="tree" revision="11" />
-        <project path="vendor/xiaomi/msm8953-common" name="Anothermi1/vendor_xiaomi_msm8953-common" remote="tree" revision="11" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="Gabuters-Dev/gabuters-clang" remote="tree" revision="master" />
-        <project path="kernel/xiaomi/msm8953" name="Anothermi1/cakeby_kernel_tissot" remote="tree" revision="NON-OC" />
-
+        <!-- FM Radio Repo -->
+        <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="tree" revision="lineage-18.1"/>
+        <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
 </manifest>

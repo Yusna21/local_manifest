@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="tree"
+                fetch="https://github.com" />
+
+	<remote name="proton"
+                fetch="https://gitlab.com/LeCmnGend" />
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/lavender" name="Yusna21/device_xiaomi_lavender" remote="tree" revision="13-4.4" />
+        <project path="vendor/xiaomi/lavender" name="Yusna21/vendor_xiaomi_lavender" remote="tree" revision="13-4.4" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />
+        <project path="kernel/xiaomi/lavender" name="VoltageOS-Devices/kernel_xiaomi_lavender" remote="tree" revision="13-4.4" />
+
+</manifest>

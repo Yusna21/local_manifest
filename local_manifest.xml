@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
 
-	<remote name="tree"
-                fetch="https://github.com/topaz-area" />
-	
-        <!-- Sync trees -->
-        <project path="device/xiaomi/topaz" name="device_xiaomi_topaz" remote="tree" revision="13" />
-        <project path="vendor/xiaomi/topaz" name="vendor_xiaomi_topaz" remote="tree" revision="13" />
-	<project path="device/xiaomi/topaz-kernel" name="device_xiaomi_topaz-kernel" remote="tree" revision="lineage-20" />
+     <!-- Remote -->
+     <remote name="me"
+     fetch="https://github.com/xiaomi-sm6150" />
 
+     <!-- Trees -->
+     <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="me" revision="lineage-21" />
+     <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="me" revision="lineage-21" />
+     <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="me" revision="lineage-21" />
+     <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="me" revision="lineage-21" />
+     <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="me" revision="lineage-21" />
+     
 </manifest>

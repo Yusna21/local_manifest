@@ -2,17 +2,17 @@
 
 <manifest>
   <!-- remote -->
-  <remote name="sweet-org" fetch="https://github.com/sweet-resource"/>
-  <remote name="unmoved" fetch="https://github.com/unmoved21" />
+  <remote name="me" fetch="https://github.com/romiyusnandar/"/>
+  <remote name="unmoved" fetch="https://github.com/unmoved21/" />
 
   <!-- device tree -->
-  <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="sweet-org" revision="fourteen" />
-  <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="sweet-org" revision="fourteen" />
+  <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="me" revision="fourteen" />
+  <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="me" revision="fourteen" />
   <!-- vendor tree -->
-  <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="sweet-org" revision="fourteen" />
-  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="sweet-org" revision="fourteen" />
+  <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="me" revision="fourteen" />
+  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="me" revision="fourteen" />
   <!-- kernel tree -->
-  <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="sweet-org" revision="fourteen" />
+  <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="me" revision="fourteen" />
   <!-- miui camera -->
   <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="unmoved" revision="fourteen" />
 

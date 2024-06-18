@@ -3,17 +3,20 @@
 <manifest>
   <!-- remote -->
   <remote name="me" fetch="https://github.com/romiyusnandar/"/>
-  <remote name="unmoved" fetch="https://github.com/unmoved21/" />
+  <remote name="los" fetch="https://github.com/LineageOS/" />
 
+  <!-- remove project -->
+  <remove-project name="LineageOS/android_hardware_lineage_compat" />
+  <!-- needed by tree -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="me" revision="fourteen" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-21" />
   <!-- device tree -->
-  <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="me" revision="fourteen" />
-  <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="me" revision="fourteen" />
+  <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="me" revision="fourteen" />
+  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="me" revision="fourteen" />
   <!-- vendor tree -->
-  <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="me" revision="fourteen" />
-  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="me" revision="fourteen" />
+  <project path="vendor/xiaomi/tissot" name="proprietary_vendor_xiaomi_tissot" remote="me" revision="fourteen" />
+  <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="me" revision="fourteen" />
   <!-- kernel tree -->
-  <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="me" revision="fourteen" />
-  <!-- miui camera -->
-  <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="unmoved" revision="fourteen" />
+  <project path="kernel/xiaomi/msm8953" name="noob_kernel_xiaomi_tissot" remote="me" revision="fourteen" />
 
 </manifest>

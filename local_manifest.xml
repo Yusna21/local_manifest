@@ -4,11 +4,9 @@
   <!-- remote -->
   <remote name="me" fetch="https://github.com/romiyusnandar/"/>
   <remote name="los" fetch="https://github.com/LineageOS/" />
+  <remote name="msm8953-xiaomi" fetch="https://github.com/xiaomi-msm8953-devs/" />
 
-  <!-- remove project -->
-  <remove-project name="LineageOS/android_hardware_lineage_compat" />
   <!-- needed by tree -->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="me" revision="fourteen" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-21" />
   <!-- device tree -->
   <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="me" revision="fourteen" />
@@ -17,6 +15,6 @@
   <project path="vendor/xiaomi/tissot" name="proprietary_vendor_xiaomi_tissot" remote="me" revision="fourteen" />
   <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="me" revision="fourteen" />
   <!-- kernel tree -->
-  <project path="kernel/xiaomi/msm8953" name="noob_kernel_xiaomi_tissot" remote="me" revision="fourteen" />
+  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="msm8953-xiaomi" revision="lineage-21" clone-depth="1" />
 
 </manifest>

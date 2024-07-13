@@ -14,7 +14,7 @@
   <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="me" revision="fourteen-testing" />
   <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="me" revision="fourteen-testing" />
   <!-- kernel tree -->
-  <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150." remote="sleepy" revision="sleepy-inline" />
+  <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="sleepy" revision="sleepy-inline" />
   <!-- miui camera -->
   <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="pos" revision="fourteen" />
   <!-- needed by source -->

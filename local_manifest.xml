@@ -16,5 +16,7 @@
   <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="me" revision="fourteen" />
   <!-- kernel tree -->
   <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="msm8953-xiaomi" revision="lineage-21" clone-depth="1" />
+  <!-- sign build -->
+  <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" remote="me" revision="fourteen" />
 
 </manifest>

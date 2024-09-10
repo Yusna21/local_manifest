@@ -18,7 +18,6 @@
   <!-- miui camera -->
   <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="pos" revision="fourteen" />
   <!-- needed by source -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-21" />
   <project path="vendor/lineage" name="android_vendor_orion" remote="me" revision="14.0" />
   <!-- sign build -->
   <project path="vendor/lineage-priv/keys" name="vendor_lineage-priv_keys" remote="me" revision="fourteen" />
